@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contato - Agência de Viagens Tech Travel</title>
+    <link rel="stylesheet" type="text/css" href="estilo.css"/>
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"/>
+</head>
+<body>
+    <header>
+        <h1>Tech Travel</h1>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="index.html">HOME</a></li>
+            <li><a href="sobre.html">SOBRE</a></li>
+            <li><a href="contato.html">CONTATO</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <article id="conteudo">
+            <div class="contato">
+                <section id="formulario">
+                    <h2>Contato</h2>
+                    <fieldset>
+                        <legend>Fale Conosco</legend>
+                        <form action="" method="post" name="fale">
+                            <label>Nome:</label>
+                            <input type="text" id="nome" name="nome" placeholder="Digite seu nome" required/>
+                            <br/>
+                            <label>Email:</label>
+                            <input type="email" id="mail" name="mail" placeholder="Digite seu email" required/>
+                            <br/>
+                            <label>Telefone:</label>
+                            <input type="tel" id="telefone" name="telefone" placeholder="Digite seu telefone" required/>
+                            <br/>
+                            <label>Assunto:</label>
+                            <select name="assunto" id="assunto" required>
+                                <option value="" selected="selected">--- Selecione ---</option>
+                                <option value="Elogio">Elogio</option>
+                                <option value="Duvida">Dúvida</option>
+                                <option value="Sugestão">Sugestão</option>
+                                <option value="Crítica">Crítica</option>
+                                <option value="Outro">Outro</option>
+                            </select>
+                            <br/><br/>
+                            <label>Comentário:</label>
+                            <textarea name="coment" id="coment" placeholder="Digite seu comentário" required></textarea>
+                            <div id="btn">
+                                <input type="submit" id="enviar" name="enviar" value="Enviar"/>
+                                <input type="reset" id="limpar" name="limpar" value="Cancelar">
+                            </div>
+                        </form>
+                    </fieldset>
+                </section>
+            </div>
+        </article>
+    </main>
+
+    <footer>
+        <div class="cont_footer">
+            <p>&copy; Todos os Direitos Reservados - Alice Andrade - 2024</p>
+            <div class="redes_sociais">
+                <a href="#" target="_blank"><i class="fab fa-instagram"></i></a>
+                <a href="#" target="_blank"><i class="fab fa-facebook"></i></a>
+                <a href="#" target="_blank"><i class="fab fa-whatsapp"></i></a>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
